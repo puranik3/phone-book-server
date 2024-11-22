@@ -18,8 +18,10 @@ http://localhost:4000/contacts
 ```
 
 ## APIs
-- Fetch all contacts - `GET http://localhost:4000/contacts`
-- Fetch contact by id (here id = 3) - `GET http://localhost:4000/contacts/3`
-- Add new contact - `POST http://localhost:4000/contacts`. Pass `{ "name": "Mark Smith", "number": "1234567890" }` for example as JSON data in the request body.
-- Update contact with given id (here id = 3) - `POST http://localhost:4000/contacts/3`. Pass `{ "name": "Mark Smith II", "number": "1234567891" }` for example as JSON data in the request body.
-- Delete contact with given id (here id = 3) - `DELETE http://localhost:4000/contacts/3`.
+| **Operation**                         | **HTTP Request**                                                                                                      |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Fetch all contacts                    | `GET http://localhost:4000/contacts`                                                                                  |
+| Fetch contact by id (id = 3)          | `GET http://localhost:4000/contacts/3`                                                                                |
+| Add new contact                       | `POST http://localhost:4000/contacts` <br> Pass `{ "name": "Mark Smith", "number": "1234567890" }` as JSON in the body |
+| Update contact with given id (id = 3) | `POST http://localhost:4000/contacts/3` <br> Pass `{ "name": "Mark Smith II", "number": "1234567891" }` as JSON body   |
+| Delete contact with given id (id = 3) | `DELETE http://localhost:4000/contacts/3`                                                                             |
